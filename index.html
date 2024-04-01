@@ -25,6 +25,10 @@
             href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
             rel="stylesheet"
         />
+        <link
+            href="https://unpkg.com/aos@2.3.1/dist/aos.css"
+            rel="stylesheet"
+        />
     </head>
     <body>
         <nav class="navbar navbar-expand-lg nav-color">
@@ -98,7 +102,13 @@
         <section class="section_2 container">
             <div class="row align-items-center p-0 m-0">
                 <div class="col-md-4 p-0 border_right">
-                    <img src="./assets/power.gif" class="gifs" alt="" />
+                    <img
+                        data-aos="fade-right"
+                        data-aos-anchor-placement="top-center"
+                        src="./assets/power.gif"
+                        class="gifs"
+                        alt=""
+                    />
                 </div>
                 <div class="col-md-8 ps-5">
                     <h1 class="header">POWER</h1>
@@ -120,11 +130,23 @@
                 </div>
 
                 <div class="col-md-4 p-0 text-end border_left">
-                    <img src="./assets/performance.gif" class="gifs" alt="" />
+                    <img
+                        data-aos-anchor-placement="top-center"
+                        data-aos="fade-left"
+                        src="./assets/performance.gif"
+                        class="gifs"
+                        alt=""
+                    />
                 </div>
 
                 <div class="col-md-4 p-0 border_right">
-                    <img src="./assets/area.gif" class="gifs" alt="" />
+                    <img
+                        data-aos-anchor-placement="top-center"
+                        data-aos="fade-right"
+                        src="./assets/area.gif"
+                        class="gifs"
+                        alt=""
+                    />
                 </div>
                 <div class="col-md-8 ps-5">
                     <h1 class="header">AREA</h1>
@@ -137,7 +159,7 @@
         </section>
 
         <section class="section_3 text-center p-5 mt-5">
-            <h1>MISSION</h1>
+            <h1 data-aos="zoom-in" class="mission_header" >MISSION</h1>
             <p>
                 "Dedicated to optimizing Power, Performance, and Area metrics in
                 the Semiconductor and VLSI realm, we strive to empower our
@@ -306,6 +328,10 @@
             </div>
         </footer>
 
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
         <script
             src="https://kit.fontawesome.com/751afc7438.js"
             crossorigin="anonymous"

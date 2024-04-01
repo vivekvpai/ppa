@@ -24,6 +24,10 @@
             href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
             rel="stylesheet"
         />
+        <link
+            href="https://unpkg.com/aos@2.3.1/dist/aos.css"
+            rel="stylesheet"
+        />
     </head>
     <body>
         <nav class="navbar navbar-expand-lg nav-color">
@@ -82,8 +86,10 @@
                     />
                 </div>
                 <div class="col-md-8 description ps-5">
-                    <h1>Who Are We <span class="yellow_color">?</span></h1>
-                    <p>
+                    <h1 data-aos="fade-down">
+                        Who Are We <span class="yellow_color">?</span>
+                    </h1>
+                    <p data-aos="fade-up">
                         We provide end-to-end semiconductor design services
                         Turnkey Projects, Innovative solution in design,
                         Compiler Development, Timing Sign Off, PPA optimization
@@ -96,14 +102,139 @@
         </section>
 
         <section class="section_3 text-center p-5 mt-5">
-            <h1>VISION</h1>
+            <h1 class="vision_header" data-aos="zoom-in">VISION</h1>
             <p>
                 "Empowering the Future of Semiconductor Innovation with
                 Unmatched Power, Performance, and Area Efficiency"
             </p>
         </section>
 
-        <footer class="p-5 mt-5">
+        <section class="section_4 container">
+            <div class="row">
+                <div class="col-4 border_leader"></div>
+                <div class="col-8 p-0">
+                    <h1 class="my-5 leadership_header px-5">Leadership</h1>
+                </div>
+                <div class="col-4 border_leader text-end p-0 pb-5">
+                    <span class="leader_name px-3 pb-1">
+                        Biprangshu Saha
+                        <i class="fa-solid fa-circle-dot ms-3"></i>
+                    </span>
+                </div>
+                <div class="col-8 pb-5">
+                    <ul>
+                        <li>
+                            12+ years of Experience in custom design in ARM ,
+                            NXP, AI, Numem, Rezonent and in other Startups for
+                            turnkey projects
+                        </li>
+                        <li>
+                            Expertise in delivering design with best in class
+                            PPA.
+                        </li>
+                        <li>
+                            Implemented several innovative designs in SRAM and
+                            Analog ADC ( Patent Applied).
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-4 border_leader text-end p-0 pb-5">
+                    <span class="leader_name px-3 pb-1">
+                        Avinash Rangapure
+                        <i class="fa-solid fa-circle-dot ms-3"></i>
+                    </span>
+                </div>
+                <div class="col-8 pb-5">
+                    <ul>
+                        <li>
+                            10+ years of Experience in custom design and
+                            characterization in ARM, AI, NUMEM and in other
+                            Startups for turnkey projects.
+                        </li>
+                        <li>
+                            Expertise in setting up Methodologies/flow for
+                            timing sign off for Complex custom blocks and
+                            compiler flow Architect. STA back annotation.
+                        </li>
+                        <li>Standard cell design, deliverables and flow.</li>
+                    </ul>
+                </div>
+
+                <div class="col-4 border_leader text-end p-0 pb-5">
+                    <span class="leader_name px-3 pb-1">
+                        Rohith Kumar <i class="fa-solid fa-circle-dot ms-3"></i>
+                    </span>
+                </div>
+
+                <div class="col-8 pb-5">
+                    <ul>
+                        <li>
+                            10+ years of Experience in custom design and
+                            verification in Qualcomm, Samsung, Numem different
+                            Startups for turnkey projects.
+                        </li>
+                        <li>
+                            Expertise in Design, verification and quality
+                            checks.
+                        </li>
+                        <li>
+                            Function verification through UVM, Formal
+                            Verification by ESPCV, VCD to Spice verification.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="section_5 py-5">
+            <div class="container">
+                <h1 class="vision_header text-center" data-aos="zoom-in">
+                    Customers
+                </h1>
+
+                <div
+                    class="row align-items-center justify-content-around p-0 m-0"
+                >
+                    <div class="col-3 text-center">
+                        <img
+                            class="customer_img"
+                            src="./assets/numem.png"
+                            alt=""
+                        />
+                    </div>
+                    <div class="col-3 text-center">
+                        <img
+                            class="customer_img"
+                            src="./assets/exiger.jpg"
+                            alt=""
+                        />
+                    </div>
+                    <div class="col-3 text-center">
+                        <img
+                            class="customer_img"
+                            src="./assets/HHigh.png"
+                            alt=""
+                        />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section_6 my-5">
+            <div class="container">
+                <div class="row align-items-center p-0 m-0">
+                    <div class="col-3 text-center">
+                        <h1 class="vision_header">Team</h1>
+                    </div>
+                    <div class="col-9">
+                        20+ Team of very focused and specialised team for Design
+                        and Verification.
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="p-5">
             <div class="row">
                 <div class="col">
                     <img class="logo" src="./assets/ppa_footer_logo.jpg" />
@@ -178,7 +309,10 @@
                 </div>
             </div>
         </footer>
-
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
         <script
             src="https://kit.fontawesome.com/751afc7438.js"
             crossorigin="anonymous"

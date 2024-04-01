@@ -1,10 +1,26 @@
 :root {
     --yellow: #f1a713;
+    --gray: #546962;
 }
 
 body {
     font-family: "Noto Sans", sans-serif;
     font-optical-sizing: auto;
+    font-size: 20px;
+}
+
+.vision_header {
+    font-size: 50px;
+}
+
+.leadership_header {
+    font-size: 50px;
+    border-bottom: 5px solid var(--yellow);
+    width: fit-content;
+}
+
+.nav-color {
+    border-bottom: 1px solid var(--yellow);
 }
 
 .logo {
@@ -59,6 +75,27 @@ body {
 .section_3 {
     background-color: var(--yellow);
     color: white;
+}
+
+.section_5 {
+    background-color: var(--yellow);
+    color: white;
+}
+
+.border_leader {
+    border-right: 30px solid var(--yellow);
+}
+
+.leader_name {
+    font-size: 24px;
+    border-bottom: 5px dashed var(--yellow);
+}
+
+.customer_img {
+    width: 100%;
+    object-fit: scale-down;
+    background-color: white;
+    padding: 10px;
 }
 
 footer {
