@@ -14,7 +14,6 @@ body {
     object-fit: scale-down;
     width: 200px;
     border-radius: 10px;
-
 }
 
 .section_1 {
@@ -35,15 +34,14 @@ body {
     background-color: rgba(0, 0, 0, 0.5);
     width: fit-content;
 }
+
 .service_header {
     color: var(--yellow);
 }
 
 .border_1 {
-    top: 0;
-    left: 0;
     border-radius: 100vmax;
-    width: 500px;
+    width: 100%;
     height: 5px;
     background: linear-gradient(
         90deg,

@@ -50,6 +50,7 @@ body {
 }
 
 .spin {
+    width: 100%;
     aspect-ratio: 1/1;
     transform: rotateY(360deg); /* Standard syntax */
     transition-duration: 4s; /* Standard syntax */
@@ -85,13 +86,11 @@ body {
 
 .leadership_header {
     font-size: 50px;
-    /* border-bottom: 5px solid var(--yellow); */
     width: fit-content;
 }
 
 .leader_name {
     font-size: 24px;
-    /* border-bottom: 5px dashed var(--yellow); */
 }
 
 .border_1 {
@@ -165,4 +164,49 @@ footer {
     text-decoration: none;
     color: black;
     font-size: 20px;
+}
+
+/* mobile screens */
+@media only screen and (max-device-width: 425px) {
+
+    .leadership_header {
+        font-size: 35px;
+        width: fit-content;
+    }
+
+    .border_mb {
+        border-left: 30px solid var(--yellow);
+    }
+
+    .border_leader {
+        border-right: none;
+    }
+}
+
+/* mobile - tab screens */
+@media only screen and (min-device-width: 426px) and (max-device-width: 767px) {
+
+    .leadership_header {
+        font-size: 35px;
+        width: fit-content;
+    }
+
+    .border_mb {
+        border-left: 30px solid var(--yellow);
+    }
+
+    .border_leader {
+        border-right: none;
+    }
+}
+
+/* tab - ipad screens */
+@media only screen and (min-device-width: 768px) and (max-device-width: 900px) {
+    .leader_name {
+        font-size: 20px;
+    }
+}
+
+/* bootstrap col inbuilt layout */
+@media only screen and (min-device-width: 900px) and (max-device-width: 991px) {
 }
