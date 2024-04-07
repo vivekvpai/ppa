@@ -168,7 +168,6 @@ footer {
 
 /* mobile screens */
 @media only screen and (max-device-width: 425px) {
-
     .leadership_header {
         font-size: 35px;
         width: fit-content;
@@ -183,8 +182,20 @@ footer {
     }
 }
 
+/* mobile screens */
+@media only screen and (max-device-width: 425px) {
+    .section_1 {
+        height: 400px !important;
+        padding-top: 100px !important;
+    }
+}
+
 /* mobile - tab screens */
 @media only screen and (min-device-width: 426px) and (max-device-width: 767px) {
+    .section_1 {
+        height: 400px !important;
+        padding-top: 100px !important;
+    }
 
     .leadership_header {
         font-size: 35px;

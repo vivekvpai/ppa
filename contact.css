@@ -16,12 +16,10 @@ body {
 }
 
 .section_1 {
-    background-image: url("./assets/Yellow-phone-768x512.png");
+    background-image: url("./assets/contact\ us.webp");
     background-position: right;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 100vh;
-    /* background-attachment: fixed; */
 }
 
 .gif {
@@ -30,10 +28,13 @@ body {
 }
 
 .form {
-    border-radius: 10px;
+    background-color: rgba(84, 105, 98, 0.5);
+    color: white !important;
     height: min-content;
-    padding-top: 10%;
-    padding-bottom: 10%;
+    margin-top: 10% !important;
+    margin-bottom: 10% !important;
+    height: min-content;
+    backdrop-filter: blur(10px);
 }
 
 footer {
