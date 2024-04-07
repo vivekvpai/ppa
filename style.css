@@ -4,7 +4,7 @@
 }
 
 body {
-    font-family: "Azeret Mono", monospace;
+    font-family: "Roboto", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
     overflow-x: hidden;
@@ -52,6 +52,7 @@ p {
 }
 
 .logo_header {
+    font-family: "Azeret Mono", monospace;
     padding-left: 20px;
     font-size: 70px;
     font-weight: 700;
