@@ -1,0 +1,94 @@
+:root {
+    --yellow: #f1a713;
+}
+
+body {
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    overflow-x: hidden;
+    font-size: 20px;
+}
+
+.logo {
+    object-fit: scale-down;
+    width: 200px;
+    border-radius: 10px;
+
+}
+
+.section_1 {
+    width: 100%;
+    aspect-ratio: 16/7;
+    background-image: url("./assets/service1.jpeg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: var(--yellow);
+}
+
+.main_header {
+    position: absolute;
+    margin: 15% 15%;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: fit-content;
+}
+.service_header {
+    color: var(--yellow);
+}
+
+.border_1 {
+    top: 0;
+    left: 0;
+    border-radius: 100vmax;
+    width: 500px;
+    height: 5px;
+    background: linear-gradient(
+        90deg,
+        rgba(84, 105, 98, 1),
+        rgba(84, 105, 98, 0.5),
+        transparent 50%
+    );
+
+    animation: animate_1 3s ease-in-out infinite;
+}
+
+@keyframes animate_1 {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        width: 100%;
+        opacity: 1;
+    }
+}
+
+.services_img {
+    width: 100%;
+    aspect-ratio: 5/3;
+    margin-right: 10px;
+    object-fit: cover;
+}
+
+.card {
+    border: none;
+    border-left: 5px solid var(--yellow) !important;
+    border-right: 5px solid var(--yellow) !important;
+}
+
+footer {
+    background-color: var(--yellow);
+}
+
+.fa-solid {
+    font-size: 25px;
+}
+
+.usefull_links {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}

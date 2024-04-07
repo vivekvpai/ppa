@@ -1,0 +1,192 @@
+:root {
+    --yellow: #f1a713;
+    --gray: #546962;
+}
+
+body {
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    overflow-x: hidden;
+    font-size: 20px;
+}
+
+p {
+    font-size: 18px !important;
+}
+
+.mission_header {
+    font-size: 50px;
+}
+
+.nav-color {
+    border-bottom: 1px solid var(--yellow);
+}
+
+.logo {
+    object-fit: scale-down;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.logo_header {
+    font-size: 50px;
+    font-weight: 700;
+    padding-left: 20px;
+}
+
+.grey_border {
+    border-left: 5px solid var(--gray);
+}
+
+.section_1 {
+    box-shadow: rgba(241, 167, 19, 0.5) 0px 25px 20px -20px;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background-image: url("./assets//home_bg.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.border_left_grey {
+    border-left: 7px solid var(--gray);
+    padding-left: 25px;
+}
+
+.logo_header {
+    font-size: 70px;
+    font-weight: 700;
+    background-color: rgba(84, 105, 98, 0.25) !important;
+    color: rgba(255, 255, 255, 1);
+}
+
+.spin {
+    aspect-ratio: 1/1;
+    transform: rotateY(360deg); /* Standard syntax */
+    transition-duration: 4s; /* Standard syntax */
+    animation: rotating 4s linear infinite; /* Animation shorthand */
+}
+
+.text_logo {
+    width: 100%;
+    height: 250px;
+}
+
+@keyframes rotating {
+    from {
+        transform: rotateY(0deg);
+    }
+    to {
+        transform: rotateY(360deg);
+    }
+}
+
+.main_banner {
+    width: 100%;
+    aspect-ratio: 16/7;
+    object-fit: cover;
+}
+
+.gifs {
+    width: 100%;
+    object-fit: scale-down;
+    aspect-ratio: 1/1;
+}
+
+.border_right {
+    border-right: 5px solid var(--yellow);
+}
+.border_left {
+    border-left: 5px solid var(--yellow);
+}
+
+.section_2 .header::first-letter {
+    color: var(--yellow);
+    font-size: 75px;
+}
+
+.border_1 {
+    border-radius: 100vmax;
+    top: 0;
+    left: 0;
+    width: 150px;
+    height: 5px;
+    background: linear-gradient(
+        90deg,
+        rgba(84, 105, 98, 1),
+        rgba(84, 105, 98, 0.5),
+        transparent 50%
+    );
+
+    animation: animate_1 3s ease-in-out infinite;
+}
+
+@keyframes animate_1 {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        width: 100%;
+        opacity: 1;
+    }
+}
+
+.section_3 {
+    background-color: var(--yellow);
+    color: white;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("./assets/circuit.jpg");
+
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    mix-blend-mode: multiply;
+    padding-bottom: 100px;
+}
+
+.section_4 {
+    background: transparent;
+}
+
+.section_4 .card {
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+
+.service_header {
+    color: var(--yellow);
+    font-size: 50px;
+}
+
+.services_img {
+    width: 100%;
+    aspect-ratio: 5/3;
+    object-fit: cover;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: var(--yellow);
+}
+
+.fa-solid {
+    font-size: 25px;
+}
+
+.usefull_links {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
